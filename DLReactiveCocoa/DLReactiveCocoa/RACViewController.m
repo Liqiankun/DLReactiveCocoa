@@ -20,10 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    RACSignal *nameSignal = [self.nameTextField.rac_textSignal map:^id _Nullable(NSString * _Nullable value) {
-//        return @(value.length > 8);
-//    }];
-    
     RACSignal *enableSignal = [[RACSignal combineLatest:@[self.nameTextField.rac_textSignal, self.passwordTextField.rac_textSignal]] map:^id _Nullable(RACTuple * _Nullable value) {
         return @([value[0] length] > 4 && [value[1] length] > 6);
     }];
@@ -37,6 +33,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//    RACSignal *nameSignal = [self.nameTextField.rac_textSignal map:^id _Nullable(NSString * _Nullable value) {
+//        return @(value.length > 8);
+//    }];
 
 
 @end

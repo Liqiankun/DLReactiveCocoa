@@ -15,6 +15,7 @@
 		63ED72AA1FC8EDB900CF4040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ED72A81FC8EDB900CF4040 /* LaunchScreen.storyboard */; };
 		63ED72AD1FC8EDB900CF4040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED72AC1FC8EDB900CF4040 /* main.m */; };
 		63ED73DC1FC9071300CF4040 /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED73DB1FC9071300CF4040 /* RACViewController.m */; };
+		63ED73DF1FC90E7F00CF4040 /* RACRGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ED73DE1FC90E7F00CF4040 /* RACRGBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		63ED72AC1FC8EDB900CF4040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63ED73DA1FC9071300CF4040 /* RACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACViewController.h; sourceTree = "<group>"; };
 		63ED73DB1FC9071300CF4040 /* RACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACViewController.m; sourceTree = "<group>"; };
+		63ED73DD1FC90E7F00CF4040 /* RACRGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACRGBViewController.h; sourceTree = "<group>"; };
+		63ED73DE1FC90E7F00CF4040 /* RACRGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACRGBViewController.m; sourceTree = "<group>"; };
 		A0FC3C13960833DAE89BBA0C /* Pods-DLReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLReactiveCocoa/Pods-DLReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		B654B30107BF37F8E1A2328A /* Pods-DLReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLReactiveCocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLReactiveCocoa/Pods-DLReactiveCocoa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +85,8 @@
 				63ED72A11FC8EDB900CF4040 /* ViewController.m */,
 				63ED73DA1FC9071300CF4040 /* RACViewController.h */,
 				63ED73DB1FC9071300CF4040 /* RACViewController.m */,
+				63ED73DD1FC90E7F00CF4040 /* RACRGBViewController.h */,
+				63ED73DE1FC90E7F00CF4040 /* RACRGBViewController.m */,
 				63ED72A31FC8EDB900CF4040 /* Main.storyboard */,
 				63ED72A61FC8EDB900CF4040 /* Assets.xcassets */,
 				63ED72A81FC8EDB900CF4040 /* LaunchScreen.storyboard */,
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63ED73DF1FC90E7F00CF4040 /* RACRGBViewController.m in Sources */,
 				63ED72A21FC8EDB900CF4040 /* ViewController.m in Sources */,
 				63ED72AD1FC8EDB900CF4040 /* main.m in Sources */,
 				63ED729F1FC8EDB900CF4040 /* AppDelegate.m in Sources */,
